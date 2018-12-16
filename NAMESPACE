@@ -1,4 +1,4 @@
-useDynLib("flare")
+useDynLib("flareihmm")
 import("MASS","Matrix","lattice","igraph")
 export("sugm", 
        "sugm.generator",
