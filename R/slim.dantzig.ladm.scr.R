@@ -47,7 +47,7 @@ slim.dantzig.ladm.scr <- function(Y, X, lambda, nlambda, n, d, maxdf, rho, max.i
          as.double(gamma), as.double(lambda), 
          as.integer(nlambda), as.integer(max.ite), as.double(prec), 
          #as.integer(intcep) )
-         as.integer(intcep),PACKAGE="flare")
+         as.integer(intcep),PACKAGE="flareihmm")
   beta.list = vector("list", nlambda)
   for(i in 1:nlambda){
     beta.i = unlist(str[4])[((i-1)*d+1):(i*d)]
