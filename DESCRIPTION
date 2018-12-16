@@ -1,4 +1,4 @@
-Package: flare_rev
+Package: flareihmm
 Type: Package
 Title: Family of Lasso Regression
 Version: 1.5.0
