@@ -1,7 +1,6 @@
 useDynLib("flareihmm")
 import("MASS","Matrix","lattice","igraph")
-export("ihmm",
-       "sugm", 
+export("sugm", 
        "sugm.generator",
        "sugm.clime.ladm.scr",
        "sugm.tiger.ladm.scr",
